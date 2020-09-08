@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MVVMExample</string>
+    <string name="ed_username_hint">User name</string>
+    <string name="ed_password_hint">Password</string>
+    <string name="signIn">SignIn</string>
+    <string name="empty_username">Please enter username</string>
+    <string name="empty_password">Please enter password</string>
+    <string name="networkdialod">Network Error</string>
+    <string name="network_msg">Please check your network connection!!</string>
+    <string name="ok">Ok</string>
+    <string name="successdialog">Success Dialog</string>
+    <string name="errordialog">Error Dialog</string>
+</resources>

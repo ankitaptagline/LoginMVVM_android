@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:hint="@string/ed_username_hint"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12sdp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLength="30"
+        android:background="@drawable/ed_radius_background"
+        android:paddingLeft="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:hint="@string/ed_password_hint"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12sdp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="16"
+        android:background="@drawable/ed_radius_background"
+        android:paddingLeft="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="@string/signIn"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/fill_radius_background"
+        android:layout_margin="@dimen/_10sdp"/>
+
+
+
+
+</LinearLayout>
